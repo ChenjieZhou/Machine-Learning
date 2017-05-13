@@ -9,13 +9,13 @@
 - Regression
  Talk about later..
  
-##How to identify ?
+## How to identify ?
 to determine if something is classification or regression is whether the output is from a discrete small set or whether it's some continuous quantity.
 
 **Is it a Classification or Regression typically depends on the output.**
 
 
-##Some terms of Classification:
+## Some terms of Classification:
 
 - **Instances**: input (images, credit scores...)
 - **Concept**: function that maps input and output (kind of description of the output)
@@ -25,7 +25,7 @@ to determine if something is classification or regression is whether the output 
 - **Candidate**: Concept that might be target concept
 - **Testing set:** Same as training set but cannot be same
 
-##Decision Tree
+## Decision Tree
 ### Decision tree: learning
 
 1. Pick **best** attribute to split the data
@@ -37,31 +37,31 @@ to determine if something is classification or regression is whether the output 
 - **AND**: A and B should both be **"+"**
  The order of A and B are **NOT** necessary
 
- ![-w200](media/14946143763299/14946261807853.jpg)
+ <img src="media/14946143763299/14946261807853.jpg" width="200">
 
 - **OR**: A B both false then get **"-"**
  The order of A and B are **NOT** necessary
  
- ![-w200](media/14946143763299/14946263540209.jpg)
+ <img src="media/14946143763299/14946263540209.jpg" width="200">
 
 
 - **XOR**: A and B are different should be **"+"** 
 
- ![-w200](media/14946143763299/14946265642782.jpg)
+ <img src="media/14946143763299/14946265642782.jpg" width="200">
 
 
 - **n-OR:** Any function, any of them is true then **"+"**
 
   \# of node: n (linear)
 
- ![-w260](media/14946143763299/14946271302825.jpg)
+ <img src="media/14946143763299/14946271302825.jpg" width="260">
 
 
 - **n-XOR:** Parity, odd \# of node are true then **"+"**
 
  exponential(evil) 
 
- ![-w260](media/14946143763299/14946273599354.jpg)
+ <img src="media/14946143763299/14946273599354.jpg" width="260">
 
 
 >More Any, less Exponential
